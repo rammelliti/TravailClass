@@ -17,8 +17,11 @@ public class plusGrandT1 {
         {
             System.out.print("Entrer la valeur "+i+" : ");
             tab[i]=read.nextInt();
-        }    
-                if (tab[i]>){
+        }
+        max=tab[0];
+        for (i=0;i<tab.length;i++)
+        {
+                if(tab[i]>max){
                 max=tab[i];
             }  
         }
