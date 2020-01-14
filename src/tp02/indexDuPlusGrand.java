@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class indexDuPlusGrand {
 
     public static void main(String[] args) {
-        final int n=4;
+        final int N=4;
         int i,index;
-        int [] tab= new int[n];
+        int [] tab= new int[N];
         Scanner read= new Scanner(System.in);
         
         for (i=0;i<tab.length;i++)
@@ -17,7 +17,7 @@ public class indexDuPlusGrand {
             tab[i]=read.nextInt();
         }
         index=0;
-        for (i=0;i<tab.length;i++)
+        for (i=1;i<tab.length;i++)
         {
                 if(tab[i]>tab[index]){
                 index=i;
